@@ -59,7 +59,7 @@ spec:
             - $values/my-values/env-type/{{.type}}-values.yaml
             - $values/my-values/regions/{{.region}}-values.yaml
             - $values/my-values/envs/{{.env}}-values.yaml
-        - repoURL: 'https://github.com/<your_github_user>/gitops-cert-level-3-examples.git'
+        - repoURL: 'https://github.com/zenit89/gitops-cert-level-3-examples.git'
           targetRevision: HEAD
           ref: values
 
